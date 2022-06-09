@@ -216,17 +216,19 @@ img {
   list-style: none;
 }
 
-.advantage-item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  /* background-image: url(../svg/sprite-ws.svg#icon-antenna); */
-  background: var(--secondary-bg-color);
-  border-radius: 4px;
-}
-
 .advantage-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.advantage-wrap-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+
+  background-color: var(--secondary-bg-color);
 }
 
 .advantage-subtitle {
