@@ -431,10 +431,11 @@ img {
 .footer {
   display: flex;
   padding: 60px 0px;
+
   background-color: #2f303a;
 }
 
-.container-footer {
+.footer-contacts {
   margin: 0;
   width: 245px;
 }
@@ -490,6 +491,12 @@ img {
 
 /* Футер. Соцсети */
 
+.footer-social {
+  margin-left: 70px;
+
+  width: 206px;
+}
+
 .footer-txt {
   display: block;
   margin-bottom: 20px;
@@ -504,12 +511,6 @@ img {
   text-transform: uppercase;
 
   color: #fff;
-}
-
-.footer-social {
-  margin-left: 70px;
-
-  width: 206px;
 }
 
 .footer-social-list {
